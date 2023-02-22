@@ -39,7 +39,7 @@ class PlayerArrow {
          position of arrow to 
         the trajectory array**/
       }
-      for(var i=0;i<length.this.trajectory.length;i++){
+      for(var i=0;i<this.trajectory.length;i++){
         ellipse(this.trajectory[i][0],this.trajectory[i][1],5,5)
       }
       /****write a correct code to add for loop and to display small dots
